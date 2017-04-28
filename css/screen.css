@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.grid {
+    border: 1px solid #2C8DFB;
+    text-align: center;
+    font-size: 0;
+}
+.grid li {
+    float: left;
+    font-size:initial;
+}
+.grid .item {
+    width: 180px;
+    height: 250px;
+    border: 1px solid #ddd;
+    background: darkseagreen;
+}
